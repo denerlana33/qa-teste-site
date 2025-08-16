@@ -1,15 +1,18 @@
-# 🧪 Projeto de Testes Automatizados com Selenium e Pytest
+# Projeto de Testes QA
 
-Este projeto foi desenvolvido com o objetivo de praticar e demonstrar conhecimentos em testes automatizados de aplicações web utilizando **Python**, **Selenium WebDriver** e **Pytest**.
+## 🧪 Descrição
+Este projeto é um conjunto de automações de testes para práticas de QA (Quality Assurance).  
+Aqui você encontra testes automatizados utilizando Python e Selenium, com foco em aprendizado e aplicação prática de testes de interface web.
 
-## 📌 Tecnologias e Ferramentas Utilizadas
+## 🚀 Tecnologias usadas
+- Python 3.13  
+- Selenium  
+- Pytest  
+- WebDriver Manager  
+- Git e GitHub
 
-- HTML5 (site base para testes)
-- Python 3.13
-- Selenium 4
-- Pytest
-- WebDriver Manager
-- Page Object Model (POM)
+## ▶️ Como rodar os testes
 
-## 🗂️ Estrutura de Pastas
-
+### 1. Instale as dependências
+```bash
+pip install -r requirements.txt
