@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Teste</title>
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <form id="formulario">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+
+           <button type="submit" id="enviar">Enviar</button>
+    </form>
+
+    <div id="erro" style="color: red; margin-top: 10px;"></div>
+
+    <script>
+        // Impede que o formulário recarregue a página ao ser enviado
+        document.getElementById('formulario').addEventListener('submit', function(event) {
+            event.preventDefault();
+            console.log('Formulário capturado pelo JavaScript (submit bloqueado).');
+        });
+    </script>
+</body>
+</html>
